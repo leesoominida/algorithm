@@ -13,11 +13,11 @@ public class Main {
             }
             int n = Integer.parseInt(s);
             int num = 0;
-            for (int i = 0;; i++) {
+            for (int i = 1;; i++) {
                 num = num*10 + 1;
                 num %= n;
                 if(num == 0){
-                    System.out.println(i+1);
+                    System.out.println(i);
                     break;
                 }
             }
